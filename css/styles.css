@@ -1,11 +1,31 @@
 * {
-    background-image: url(https://images.pexels.com/photos/1213050/pexels-photo-1213050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(https://images.pexels.com/photos/2089891/pexels-photo-2089891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .nav {
     font-family: 'Dosis', sans-serif;
     font-size: 24px;
+}
+
+.rounded {
+    height: 90vh;
+    filter: grayscale(100%);
+}
+
+.rounded:hover {
+    filter: grayscale(0%);
+}
+.name-text {
+    font-size: 96px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.title-text {
+    font-size: 45px;
+    font-family: 'Dosis', sans-serif;
 }
