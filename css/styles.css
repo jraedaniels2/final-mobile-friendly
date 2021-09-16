@@ -1,13 +1,11 @@
-* {
-    background-image: url(https://images.pexels.com/photos/2089891/pexels-photo-2089891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 1%;
+.bg-image {
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center; 
+padding-left: 1%;
+padding-right: 1%;
+padding-bottom: 1%;
 }
-
 .nav {
     font-family: 'Dosis', sans-serif;
     font-size: 24px;
@@ -41,11 +39,13 @@
     box-shadow:20px 20px 50px 10px red inset;  
 }
 
-.bg-dark {
-    background-color: black !important;
-}
 .col {
     font-size: 28px;
     font-family: 'Dosis', sans-serif;
     line-height: 1.4em;
+}
+
+.contact {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
 }
