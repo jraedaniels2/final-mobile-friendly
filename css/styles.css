@@ -5,6 +5,7 @@
     background-position: center; 
     padding-left: 1%;
     padding-right: 1%;
+    padding-bottom: 1%;
 }
 
 .nav {
@@ -19,6 +20,7 @@
 
 .rounded:hover {
     filter: grayscale(0%);
+    box-shadow:20px 20px 50px 10px red inset;  
 }
 .name-text {
     font-size: 96px;
@@ -28,4 +30,22 @@
 .title-text {
     font-size: 45px;
     font-family: 'Dosis', sans-serif;
+}
+
+.rounded2 {
+    filter: grayscale(100%);
+}
+
+.rounded2:hover {
+    filter: grayscale(0%);
+    box-shadow:20px 20px 50px 10px red inset;  
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+.col {
+    font-size: 28px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.4em;
 }
