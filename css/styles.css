@@ -30,6 +30,9 @@ padding-bottom: 1%;
     font-family: 'Dosis', sans-serif;
 }
 
+.about-section {
+    padding: 1%;
+}
 .rounded2 {
     filter: grayscale(100%);
 }
@@ -40,7 +43,7 @@ padding-bottom: 1%;
 }
 
 .col {
-    font-size: 28px;
+    font-size: 26px;
     font-family: 'Dosis', sans-serif;
     line-height: 1.4em;
 }
@@ -48,4 +51,16 @@ padding-bottom: 1%;
 .contact {
     font-family: 'Dosis', sans-serif;
     font-size: 24px;
+}
+
+.footer {
+    filter: invert(100%);
+}
+
+.listings {
+    filter: grayscale(100%);
+}
+
+.listings:hover {
+    filter: grayscale(0%);
 }
